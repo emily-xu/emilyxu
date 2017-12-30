@@ -40,6 +40,15 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  section h4.service-heading {
+    margin-left: 50px
+  }
+  section h6.service-subheading {
+    margin-left: 50px
+  }
+  section p.text-muted {
+    margin-left: 50px
+  }
 
 @media (min-width: 768px) {
   section {
@@ -79,6 +88,11 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #fed136; }
+
+.row {
+   margin-left: -15px;
+   margin-right: -15px;
+ }
 
 #mainNav {
   background-color: #212529; }
@@ -162,7 +176,7 @@ header.masthead {
     padding-top: 300px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
+      font-size: 30px;
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
@@ -172,7 +186,7 @@ header.masthead {
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; } }
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
 .service-heading {
   margin: 15px 0;
@@ -438,44 +452,6 @@ header.masthead {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
-
-section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center; }
-  section#contact .section-heading {
-    color: #fff; }
-  section#contact .form-group {
-    margin-bottom: 25px; }
-    section#contact .form-group input,
-    section#contact .form-group textarea {
-      padding: 20px; }
-    section#contact .form-group input.form-control {
-      height: auto; }
-    section#contact .form-group textarea.form-control {
-      height: 248px; }
-  section#contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none; }
-  section#contact ::-webkit-input-placeholder {
-    font-weight: 700;
-    color: #ced4da;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  section#contact :-moz-placeholder {
-    font-weight: 700;
-    color: #ced4da;
-    /* Firefox 18- */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  section#contact ::-moz-placeholder {
-    font-weight: 700;
-    color: #ced4da;
-    /* Firefox 19+ */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  section#contact :-ms-input-placeholder {
-    font-weight: 700;
-    color: #ced4da;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 footer {
   padding: 25px 0;

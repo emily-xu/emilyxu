@@ -41,13 +41,16 @@ section {
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section h4.service-heading {
-    margin-left: 50px
+    margin-left: 50px;
+    margin-right: 50px;
   }
   section h6.service-subheading {
-    margin-left: 50px
+    margin-left: 50px;
+    margin-right: 50px;
   }
   section p.text-muted {
-    margin-left: 50px
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
 @media (min-width: 768px) {

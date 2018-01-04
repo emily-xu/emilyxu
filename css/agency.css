@@ -37,7 +37,7 @@ section {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
+    margin-bottom: 20px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section h4.service-heading {
@@ -198,6 +198,9 @@ header.masthead {
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
+#portfolio .portfolio-item-middle {
+  vertical-align: middle;
+}
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
